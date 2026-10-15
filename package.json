@@ -1,0 +1,16 @@
+{
+  "name": "sessionscope",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Inspect the checks that bind a session to its origin, lifetime, and authorized action.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "analyze": "node run.mjs",
+    "http-lab": "LAB_KIND=session node scripts/http-lab.cjs"
+  }
+}

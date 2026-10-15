@@ -1,0 +1,18 @@
+{
+  "slug": "sessionscope",
+  "name": "SessionScope",
+  "field": "Application & product security",
+  "roles": "Application Security Engineer I \u00b7 Software Engineer, Security",
+  "headline": "A login is only the beginning.",
+  "description": "Inspect the checks that bind a session to its origin, lifetime, and authorized action.",
+  "accent": "#65502c",
+  "pale": "#f0ebdf",
+  "display": "Newsreader",
+  "action": "Inspect session checks",
+  "guide": [
+    "Run the CSRF case with mismatched tokens. Then make them equal in the request JSON and rerun.",
+    "Choose expiry and move now to the expiration boundary. Equality must be rejected.",
+    "Run local HTTP tests for session rotation, CSRF enforcement, revocation, and signed-token validation."
+  ],
+  "limits": "The public view is a session-policy simulator, not an identity provider. The local server uses real random session IDs and signed tokens. External OIDC/SSO is not implemented."
+}
