@@ -4,7 +4,11 @@ Inspect the checks that bind a session to its origin, lifetime, and authorized a
 
 **Field:** Application & product security  
 **Relevant roles:** Application Security Engineer I · Software Engineer, Security  
-**Status:** working prototype; hosting status is tracked separately.
+**Status:** working prototype, published on GitHub and Vercel.
+
+[**Open the live interactive lab**](https://sessionscope-roan.vercel.app/)
+
+The hosted lab runs synthetic exercises in your browser. See the scope below for local integration exercises and limitations.
 
 ## Run
 
